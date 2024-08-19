@@ -1,0 +1,56 @@
+nav {
+  height: 4rem;
+  padding: 0 4rem !important;
+  
+}
+.navbar-brand {
+  flex: 1;
+  transition: all 0.2s ease;
+  font-size: 2rem;
+  margin-right: 50px;
+  background: linear-gradient(-45deg, #e250e5, #4b50e6, #e250e5, #4b50e6);
+  background-size: 100% 100%;
+  background-clip: text;
+  -webkit-text-stroke: 3px transparent;
+  -webkit-text-fill-color: #14141f;
+}
+
+.navbar-nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.site-navbar {
+  display: flex;
+  align-items: center;
+}
+
+/* Align account info to the right */
+.navbar-nav .nav-item:last-child {
+  margin-left: auto;
+}
+
+.img {
+  padding: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.text-secondary {
+  margin-right: 1rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+/* Additional styling for secondary text */
+.secondary {
+  font-size: 1rem;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}

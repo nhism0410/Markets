@@ -1,0 +1,83 @@
+.footer {
+  padding-bottom: 30px;
+  background: #5d5c5c;
+  padding-top: 30px;
+  position: relative; /* Changed from fixed to relative */
+  width: 100%; /* Ensures the footer spans the full width */
+  z-index: 100; /* Ensures the footer appears on top of other elements */
+  height: 200px;
+  margin-top: auto; /* Pushes the footer to the bottom of the content */
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.footer h5 {
+  font-size: 1.1rem;
+  color: #fff;
+}
+.footer-logo h2 {
+  font-size: 2.5rem;
+  background: linear-gradient(-45deg, #e250e5, #4b50e6, #e250e5, #4b50e6);
+  background-size: 100% 100%;
+  background-clip: text;
+  -webkit-text-stroke: 3px transparent;
+  -webkit-text-fill-color: #14141f;
+}
+.footer-logo p {
+  text-decoration: none;
+  color: #fff;
+  opacity: 50%;
+  font-size: 0.9rem;
+}
+.footer-column ul li {
+  margin-bottom: 0.5rem;
+  color: #ffffff; /* White color for list items */
+}
+
+.footer-column ul li:hover {
+  color: #007bff; /* Optional: Color change on hover */
+}
+.list__item {
+  background: transparent !important;
+  padding-left: 0 !important;
+  border: none !important;
+}
+.list__item a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 50%;
+  font-size: 0.9rem;
+}
+.list__item a:hover {
+  color: #fff;
+}
+.newsletter {
+  width: 100%;
+  border-radius: 50px;
+  color: #fff;
+  padding: 8px 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  font-size: 0.8em;
+  background: #343444;
+}
+::placeholder {
+  color: #fff;
+  opacity: 85%;
+}
+.social__links span a {
+  text-decoration: none;
+  color: #e252e5;
+  color: #fff;
+  opacity: 85%;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+.social__links span a:hover {
+  color: #e252e5;
+}

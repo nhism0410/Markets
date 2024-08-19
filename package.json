@@ -1,0 +1,38 @@
+{
+  "name": "dopeshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client:install": "npm install --prefix client",
+    "client:start": "npm start --prefix client",
+    "truffle:compile": "npm run compile --prefix truffle",
+    "truffle:install": "npm install --prefix truffle",
+    "truffle:migrate": "npm run migrate --prefix truffle",
+    "truffle:test": "npm run test --prefix truffle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karan9034/dopeShop.git"
+  },
+  "author": "Karan Agrawal",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Karan9034/dopeShop/issues"
+  },
+  "homepage": "https://github.com/Karan9034/dopeShop#readme",
+  "dependencies": {
+    "@pinata/sdk": "^2.1.0",
+    "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.5",
+    "ipfs-http-client": "^60.0.1",
+    "pinata": "^0.2.0",
+    "react-bootstrap": "^2.10.4",
+    "remixicon": "^4.3.0",
+    "styled-components": "^6.1.12",
+    "web3": "^4.10.0"
+  },
+  "devDependencies": {
+    "sass": "^1.77.8"
+  }
+}
